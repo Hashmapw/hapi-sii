@@ -19,7 +19,7 @@ cd android
 
 The debug APK is `android/app/build/outputs/apk/debug/app-debug.apk` relative
 to the repository root. For an optimized release APK, configure a persistent
-signing key as described in the [Android README](../../android/README.md#release-signing)
+signing key as described in the [Android README](https://github.com/Hashmapw/hapi-sii/blob/main/android/README.md#release-signing)
 and run `./gradlew :app:assembleRelease :app:lintRelease` from `android/`.
 Without signing configuration, a release APK is unsigned and cannot be installed.
 
